@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__violet {
+    width: 35%;
+    height: 800px;
+    margin-left: -100px;
+    /* background-color: #943bff; */
+    border-radius: 0 0 400px 400px;
+    background: linear-gradient(#ce40ff, #943bff);
+}
+
