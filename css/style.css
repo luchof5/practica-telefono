@@ -33,16 +33,30 @@
     background: linear-gradient(to right, #943bff, #ce40ff);
     font-size: 0.7rem;
     justify-content: space-between;
+    align-items: end;
     padding: 20px 10px;
     border-radius: 20px 20px 5px 5px;
-    align-items: center;
     color: #fff;
+    height: 40px;
 }
 
 .container__tel__cont__head-perfil {
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-left: -100px;
+    margin-bottom: -10px;
+}
+.container__tel__cont__head-perfil::before {
+    background-color: #fff;
+    width: 50%;
+    height: 30px;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 85px;
+    content: "";
+    border-radius: 0 0 10px 10px;
 }
 
 .container__tel__cont__head-perfil-img img {
