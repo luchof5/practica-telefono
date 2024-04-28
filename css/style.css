@@ -9,6 +9,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -----> Content Header Phone <----- */
+
 .container__tel {
     width: 300px;
     height: 600px;
@@ -71,6 +73,28 @@
 
 .container__tel__cont__head span {
     font-size: 0.9rem;
+}
+
+/* -----> Content Screeen Phone <----- */
+
+.container__tel__cont__screen {
+    background-color: #eeeeee;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+    padding: 30px;
+}
+
+.container__tel__cont__screen p {
+    font-size: .6rem;
+
+}
+
+.container__tel__cont__screen img {
+    width: 50px;
+    border-radius: 15px;
 }
 
 .container__violet {
